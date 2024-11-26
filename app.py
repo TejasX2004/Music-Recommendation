@@ -8,8 +8,8 @@ from sklearn.preprocessing import StandardScaler
 st.title('ML-Based Music Recommendation - BeatBot')
 
 # Spotify Credentials
-CLIENT_ID = '06efd7289817442293ffea29b7962ce5'
-CLIENT_SECRET = '55119dd838f644ca98159fddaa886a6d'
+CLIENT_ID = 'YOUR_CLIENT_ID'
+CLIENT_SECRET = 'YOUR_CLIENT_SECRET'
 
 # Function to get Spotify API access token
 def get_access_token(client_id, client_secret):
